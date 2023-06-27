@@ -24,5 +24,11 @@ export TURTLEBOT_STDR_MAP_FILE='/home/thxssio/turtlebot2_ws/src/turtlebot_simula
 export TURTLEBOT_TYPE='turtlebot'
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/thxssio/turtlebot2_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/thxssio/turtlebot2_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/thxssio/turtlebot2_ws/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/thxssio/turtlebot2_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/thxssio/turtlebot2_ws/build'
 export PYTHONPATH="/home/thxssio/turtlebot2_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/thxssio/turtlebot2_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/thxssio/turtlebot2_ws/src:$ROS_PACKAGE_PATH"

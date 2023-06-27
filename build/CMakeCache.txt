@@ -1589,8 +1589,7 @@ kobuki_safety_controller_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/
 //Value Computed by CMake
 kobuki_testsuite_BINARY_DIR:STATIC=/home/thxssio/turtlebot2_ws/build/kobuki/kobuki_testsuite
 
-//The directory containing a CMake configuration file for kobuki_testsuite.
-kobuki_testsuite_DIR:PATH=/home/thxssio/turtlebot2_ws/devel/share/kobuki_testsuite/cmake
+kobuki_testsuite_DIR:PATH=
 
 //Value Computed by CMake
 kobuki_testsuite_SOURCE_DIR:STATIC=/home/thxssio/turtlebot2_ws/src/kobuki/kobuki_testsuite
@@ -2122,7 +2121,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=273
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=267
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -2224,7 +2223,7 @@ ECL_POSIX_HAS_TIMERS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: EIGEN_INCLUDE_DIR
 EIGEN_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: thread system filesystem program_options regex iostreams date_time ][v1.71.0(1.40.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][c ][v1.71.0()]
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.68.0()]
 //Details about finding DART
