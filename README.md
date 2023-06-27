@@ -17,18 +17,14 @@
 ```
 sudo apt-get install ros-noetic-sophus
 ```
-
-
 ```
 sudo apt-get install ros-noetic-joy
 ```
 
 ```
-
 sudo apt-get install libusb-dev
 ```
 
 ```
-
 sudo apt-get install libftdi-dev
 ```
