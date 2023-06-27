@@ -7838,32 +7838,6 @@ kobuki_nodelet/fast:
 .PHONY : kobuki_nodelet/fast
 
 #=============================================================================
-# Target rules for targets named kobuki_qtestsuite
-
-# Build rule for target.
-kobuki_qtestsuite: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_qtestsuite
-.PHONY : kobuki_qtestsuite
-
-# fast build rule for target.
-kobuki_qtestsuite/fast:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build
-.PHONY : kobuki_qtestsuite/fast
-
-#=============================================================================
-# Target rules for targets named rqt_py_common_generate_messages_py
-
-# Build rule for target.
-rqt_py_common_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rqt_py_common_generate_messages_py
-.PHONY : rqt_py_common_generate_messages_py
-
-# fast build rule for target.
-rqt_py_common_generate_messages_py/fast:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build
-.PHONY : rqt_py_common_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named yocs_msgs_genpy
 
 # Build rule for target.
@@ -9103,8 +9077,6 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... kobuki_ros"
 	@echo "... kobuki_nodelet"
-	@echo "... kobuki_qtestsuite"
-	@echo "... rqt_py_common_generate_messages_py"
 	@echo "... yocs_msgs_genpy"
 	@echo "... yocs_msgs_gennodejs"
 	@echo "... yocs_msgs_genlisp"

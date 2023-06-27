@@ -212,7 +212,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/thxssio/turtlebot2_ws/build/kobuki/kobuki_safety_controller/cmake_install.cmake")
   include("/home/thxssio/turtlebot2_ws/build/kobuki/kobuki_node/cmake_install.cmake")
   include("/home/thxssio/turtlebot2_ws/build/kobuki/kobuki_testsuite/cmake_install.cmake")
-  include("/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/cmake_install.cmake")
   include("/home/thxssio/turtlebot2_ws/build/yocs_msgs/cmake_install.cmake")
 
 endif()

@@ -135,7 +135,6 @@ all: kobuki/kobuki_random_walker/all
 all: kobuki/kobuki_safety_controller/all
 all: kobuki/kobuki_node/all
 all: kobuki/kobuki_testsuite/all
-all: kobuki_desktop/kobuki_qtestsuite/all
 all: yocs_msgs/all
 
 .PHONY : all
@@ -223,7 +222,6 @@ preinstall: kobuki/kobuki_random_walker/preinstall
 preinstall: kobuki/kobuki_safety_controller/preinstall
 preinstall: kobuki/kobuki_node/preinstall
 preinstall: kobuki/kobuki_testsuite/preinstall
-preinstall: kobuki_desktop/kobuki_qtestsuite/preinstall
 preinstall: yocs_msgs/preinstall
 
 .PHONY : preinstall
@@ -316,7 +314,6 @@ clean: kobuki/kobuki_random_walker/clean
 clean: kobuki/kobuki_safety_controller/clean
 clean: kobuki/kobuki_node/clean
 clean: kobuki/kobuki_testsuite/clean
-clean: kobuki_desktop/kobuki_qtestsuite/clean
 clean: yocs_msgs/clean
 
 .PHONY : clean
@@ -5361,25 +5358,6 @@ kobuki_desktop/kobuki_gazebo_plugins/clean: kobuki_desktop/kobuki_gazebo_plugins
 kobuki_desktop/kobuki_gazebo_plugins/clean: kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : kobuki_desktop/kobuki_gazebo_plugins/clean
-
-#=============================================================================
-# Directory level rules for directory kobuki_desktop/kobuki_qtestsuite
-
-# Recursive "all" directory target.
-kobuki_desktop/kobuki_qtestsuite/all: kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/all
-
-.PHONY : kobuki_desktop/kobuki_qtestsuite/all
-
-# Recursive "preinstall" directory target.
-kobuki_desktop/kobuki_qtestsuite/preinstall:
-
-.PHONY : kobuki_desktop/kobuki_qtestsuite/preinstall
-
-# Recursive "clean" directory target.
-kobuki_desktop/kobuki_qtestsuite/clean: kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/clean
-kobuki_desktop/kobuki_qtestsuite/clean: kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/clean
-
-.PHONY : kobuki_desktop/kobuki_qtestsuite/clean
 
 #=============================================================================
 # Directory level rules for directory kobuki_desktop/kobuki_rviz_launchers
@@ -23631,60 +23609,6 @@ kobuki_nodelet: kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/rul
 kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/clean:
 	$(MAKE) -f kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build.make kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/clean
 .PHONY : kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/clean
-
-#=============================================================================
-# Target rules for target kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir
-
-# All Build rule for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/all:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/depend
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thxssio/turtlebot2_ws/build/CMakeFiles --progress-num= "Built target kobuki_qtestsuite"
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/all
-
-# Build rule for subdir invocation for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thxssio/turtlebot2_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thxssio/turtlebot2_ws/build/CMakeFiles 0
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/rule
-
-# Convenience name for target.
-kobuki_qtestsuite: kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/rule
-
-.PHONY : kobuki_qtestsuite
-
-# clean rule for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/clean:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/clean
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/clean
-
-#=============================================================================
-# Target rules for target kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir
-
-# All Build rule for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/all:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/depend
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thxssio/turtlebot2_ws/build/CMakeFiles --progress-num= "Built target rqt_py_common_generate_messages_py"
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thxssio/turtlebot2_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thxssio/turtlebot2_ws/build/CMakeFiles 0
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rqt_py_common_generate_messages_py: kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/rule
-
-.PHONY : rqt_py_common_generate_messages_py
-
-# clean rule for target.
-kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/clean:
-	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/clean
-.PHONY : kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/clean
 
 #=============================================================================
 # Target rules for target yocs_msgs/CMakeFiles/yocs_msgs_genpy.dir

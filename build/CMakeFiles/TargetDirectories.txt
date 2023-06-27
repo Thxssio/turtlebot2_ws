@@ -2485,15 +2485,6 @@
 /home/thxssio/turtlebot2_ws/build/kobuki/kobuki_testsuite/CMakeFiles/rebuild_cache.dir
 /home/thxssio/turtlebot2_ws/build/kobuki/kobuki_testsuite/CMakeFiles/edit_cache.dir
 /home/thxssio/turtlebot2_ws/build/kobuki/kobuki_testsuite/CMakeFiles/test.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/install/strip.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/install/local.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/install.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/list_install_components.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rebuild_cache.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/edit_cache.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/test.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir
-/home/thxssio/turtlebot2_ws/build/kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir
 /home/thxssio/turtlebot2_ws/build/yocs_msgs/CMakeFiles/edit_cache.dir
 /home/thxssio/turtlebot2_ws/build/yocs_msgs/CMakeFiles/yocs_msgs_genpy.dir
 /home/thxssio/turtlebot2_ws/build/yocs_msgs/CMakeFiles/yocs_msgs_gennodejs.dir
