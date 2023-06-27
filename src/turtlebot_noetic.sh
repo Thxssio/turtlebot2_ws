@@ -7,7 +7,7 @@ git clone https://github.com/turtlebot/turtlebot_simulator
 # kobuki
 git clone https://github.com/yujinrobot/kobuki_msgs.git
 git clone --branch melodic https://github.com/yujinrobot/kobuki.git
-git clone --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
+#git clone --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
 
 # yocs_controllers
 git clone https://github.com/yujinrobot/yujin_ocs.git
