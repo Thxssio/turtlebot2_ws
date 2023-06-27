@@ -7383,6 +7383,175 @@ turtlebot_teleop_joy/fast:
 .PHONY : turtlebot_teleop_joy/fast
 
 #=============================================================================
+# Target rules for targets named gazebo_ros_gencfg
+
+# Build rule for target.
+gazebo_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_gencfg
+.PHONY : gazebo_ros_gencfg
+
+# fast build rule for target.
+gazebo_ros_gencfg/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_ros_gencfg.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_ros_gencfg.dir/build
+.PHONY : gazebo_ros_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_plugins_gencfg
+
+# Build rule for target.
+gazebo_plugins_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins_gencfg
+.PHONY : gazebo_plugins_gencfg
+
+# fast build rule for target.
+gazebo_plugins_gencfg/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
+.PHONY : gazebo_plugins_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_ros_kobuki
+
+# Build rule for target.
+gazebo_ros_kobuki: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_kobuki
+.PHONY : gazebo_ros_kobuki
+
+# fast build rule for target.
+gazebo_ros_kobuki/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_ros_kobuki.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_ros_kobuki.dir/build
+.PHONY : gazebo_ros_kobuki/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_cpp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_cpp
+.PHONY : gazebo_msgs_generate_messages_cpp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+.PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_py
+
+# Build rule for target.
+gazebo_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_py
+.PHONY : gazebo_msgs_generate_messages_py
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_py/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+.PHONY : gazebo_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_eus
+
+# Build rule for target.
+trajectory_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
+.PHONY : trajectory_msgs_generate_messages_eus
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_eus/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_eus
+
+# Build rule for target.
+gazebo_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
+.PHONY : gazebo_msgs_generate_messages_eus
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_eus/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_nodejs
+
+# Build rule for target.
+gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_cpp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_lisp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_lisp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_nodejs
+
+# Build rule for target.
+trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
+.PHONY : trajectory_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make kobuki_desktop/kobuki_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+.PHONY : trajectory_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named kobuki_description_xacro_generated_to_devel_space_
 
 # Build rule for target.
@@ -7667,6 +7836,32 @@ kobuki_nodelet: cmake_check_build_system
 kobuki_nodelet/fast:
 	$(MAKE) -f kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build.make kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build
 .PHONY : kobuki_nodelet/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_qtestsuite
+
+# Build rule for target.
+kobuki_qtestsuite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_qtestsuite
+.PHONY : kobuki_qtestsuite
+
+# fast build rule for target.
+kobuki_qtestsuite/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/kobuki_qtestsuite.dir/build
+.PHONY : kobuki_qtestsuite/fast
+
+#=============================================================================
+# Target rules for targets named rqt_py_common_generate_messages_py
+
+# Build rule for target.
+rqt_py_common_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rqt_py_common_generate_messages_py
+.PHONY : rqt_py_common_generate_messages_py
+
+# fast build rule for target.
+rqt_py_common_generate_messages_py/fast:
+	$(MAKE) -f kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build.make kobuki_desktop/kobuki_qtestsuite/CMakeFiles/rqt_py_common_generate_messages_py.dir/build
+.PHONY : rqt_py_common_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named yocs_msgs_genpy
@@ -8873,6 +9068,19 @@ help:
 	@echo "... turtlebot_follower_gencfg"
 	@echo "... laser_footprint_filter"
 	@echo "... turtlebot_teleop_joy"
+	@echo "... gazebo_ros_gencfg"
+	@echo "... gazebo_plugins_gencfg"
+	@echo "... gazebo_ros_kobuki"
+	@echo "... gazebo_msgs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_py"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... kobuki_description_xacro_generated_to_devel_space_"
 	@echo "... turtlebot_description_test_urdf"
 	@echo "... run_tests_turtlebot_description"
@@ -8895,6 +9103,8 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... kobuki_ros"
 	@echo "... kobuki_nodelet"
+	@echo "... kobuki_qtestsuite"
+	@echo "... rqt_py_common_generate_messages_py"
 	@echo "... yocs_msgs_genpy"
 	@echo "... yocs_msgs_gennodejs"
 	@echo "... yocs_msgs_genlisp"
