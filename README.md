@@ -62,3 +62,44 @@ Teleop control
 ```
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
+
+## Map
+
+Create map
+```
+roslaunch turtlebot_gazebo turtlebot_world.launch
+```
+```
+roslaunch turtlebot_gazebo gmapping_demo.launch
+```
+
+```
+roslaunch turtlebot_rviz_launchers view_navigation.launch
+```
+
+```
+rosrun map_server map_saver -f /tmp/my_map
+```
+
+Autonomous with map 
+```
+roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/tmp/my_map.yaml
+```
+
+```
+roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+```
+
+## RtabMap
+
+```
+roslaunch turtlebot_gazebo turtlebot_world.launch 
+```
+```
+roslaunch rtabmap_demos demo_turtlebot_mapping.launch simulation:=true
+```
+
+```
+roslaunch rtabmap_demos demo_turtlebot_rviz.launch 
+```
+

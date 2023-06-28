@@ -7,12 +7,12 @@ git clone https://github.com/turtlebot/turtlebot_simulator
 # kobuki
 git clone https://github.com/yujinrobot/kobuki_msgs.git
 git clone --branch melodic https://github.com/yujinrobot/kobuki.git
-#git clone --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
+git clone --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
 
 # yocs_controllers
 git clone https://github.com/yujinrobot/yujin_ocs.git
 git clone https://github.com/yujinrobot/yocs_msgs.git
-mv yujin_ocs/yocs_cmd_vel_mux yujin_ocs/yocs_controllers .
+mv yujin_ocs/yocs_cmd_vel_mux yujin_ocs/yocs_controllers yujin_ocs/yocs_velocity_smoother ./
 rm -rf yujin_ocs/
 
 # viz
@@ -29,3 +29,6 @@ git clone --branch release/0.60-melodic https://github.com/stonier/ecl_navigatio
 
 # depth image to a laser scan
 git clone --branch melodic-devel https://github.com/ros-perception/depthimage_to_laserscan.git
+
+cd kobuki_desktop
+rm -rf kobuki_qtestsuite
