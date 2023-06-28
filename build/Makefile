@@ -7747,97 +7747,6 @@ kobuki_safety_controller_nodelet/fast:
 .PHONY : kobuki_safety_controller_nodelet/fast
 
 #=============================================================================
-# Target rules for targets named diagnostic_msgs_generate_messages_py
-
-# Build rule for target.
-diagnostic_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_py
-.PHONY : diagnostic_msgs_generate_messages_py
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_py/fast:
-	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-.PHONY : diagnostic_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named diagnostic_msgs_generate_messages_nodejs
-
-# Build rule for target.
-diagnostic_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_nodejs
-.PHONY : diagnostic_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
-.PHONY : diagnostic_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named diagnostic_msgs_generate_messages_lisp
-
-# Build rule for target.
-diagnostic_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_lisp
-.PHONY : diagnostic_msgs_generate_messages_lisp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named diagnostic_msgs_generate_messages_eus
-
-# Build rule for target.
-diagnostic_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_eus
-.PHONY : diagnostic_msgs_generate_messages_eus
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_eus/fast:
-	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
-.PHONY : diagnostic_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named diagnostic_msgs_generate_messages_cpp
-
-# Build rule for target.
-diagnostic_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_cpp
-.PHONY : diagnostic_msgs_generate_messages_cpp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_ros
-
-# Build rule for target.
-kobuki_ros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_ros
-.PHONY : kobuki_ros
-
-# fast build rule for target.
-kobuki_ros/fast:
-	$(MAKE) -f kobuki/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/build.make kobuki/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/build
-.PHONY : kobuki_ros/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_nodelet
-
-# Build rule for target.
-kobuki_nodelet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_nodelet
-.PHONY : kobuki_nodelet
-
-# fast build rule for target.
-kobuki_nodelet/fast:
-	$(MAKE) -f kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build.make kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build
-.PHONY : kobuki_nodelet/fast
-
-#=============================================================================
 # Target rules for targets named yocs_msgs_genpy
 
 # Build rule for target.
@@ -8474,6 +8383,123 @@ _yocs_msgs_generate_messages_check_deps_DockingInteractorGoal/fast:
 	$(MAKE) -f yocs_msgs/CMakeFiles/_yocs_msgs_generate_messages_check_deps_DockingInteractorGoal.dir/build.make yocs_msgs/CMakeFiles/_yocs_msgs_generate_messages_check_deps_DockingInteractorGoal.dir/build
 .PHONY : _yocs_msgs_generate_messages_check_deps_DockingInteractorGoal/fast
 
+#=============================================================================
+# Target rules for targets named yocs_velocity_smoother_nodelet
+
+# Build rule for target.
+yocs_velocity_smoother_nodelet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother_nodelet
+.PHONY : yocs_velocity_smoother_nodelet
+
+# fast build rule for target.
+yocs_velocity_smoother_nodelet/fast:
+	$(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_nodelet.dir/build
+.PHONY : yocs_velocity_smoother_nodelet/fast
+
+#=============================================================================
+# Target rules for targets named yocs_velocity_smoother_gencfg
+
+# Build rule for target.
+yocs_velocity_smoother_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yocs_velocity_smoother_gencfg
+.PHONY : yocs_velocity_smoother_gencfg
+
+# fast build rule for target.
+yocs_velocity_smoother_gencfg/fast:
+	$(MAKE) -f yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build.make yocs_velocity_smoother/CMakeFiles/yocs_velocity_smoother_gencfg.dir/build
+.PHONY : yocs_velocity_smoother_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_py
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_py
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_py/fast:
+	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+.PHONY : diagnostic_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_nodejs
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_nodejs
+.PHONY : diagnostic_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
+.PHONY : diagnostic_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_lisp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_lisp
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_eus
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_eus
+.PHONY : diagnostic_msgs_generate_messages_eus
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_eus/fast:
+	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
+.PHONY : diagnostic_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_cpp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_cpp
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make kobuki/kobuki_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_ros
+
+# Build rule for target.
+kobuki_ros: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_ros
+.PHONY : kobuki_ros
+
+# fast build rule for target.
+kobuki_ros/fast:
+	$(MAKE) -f kobuki/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/build.make kobuki/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/build
+.PHONY : kobuki_ros/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_nodelet
+
+# Build rule for target.
+kobuki_nodelet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_nodelet
+.PHONY : kobuki_nodelet
+
+# fast build rule for target.
+kobuki_nodelet/fast:
+	$(MAKE) -f kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build.make kobuki/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/build
+.PHONY : kobuki_nodelet/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -9070,13 +9096,6 @@ help:
 	@echo "... bump_blink_controller_nodelet"
 	@echo "... kobuki_random_walker_nodelet"
 	@echo "... kobuki_safety_controller_nodelet"
-	@echo "... diagnostic_msgs_generate_messages_py"
-	@echo "... diagnostic_msgs_generate_messages_nodejs"
-	@echo "... diagnostic_msgs_generate_messages_lisp"
-	@echo "... diagnostic_msgs_generate_messages_eus"
-	@echo "... diagnostic_msgs_generate_messages_cpp"
-	@echo "... kobuki_ros"
-	@echo "... kobuki_nodelet"
 	@echo "... yocs_msgs_genpy"
 	@echo "... yocs_msgs_gennodejs"
 	@echo "... yocs_msgs_genlisp"
@@ -9126,6 +9145,15 @@ help:
 	@echo "... _yocs_msgs_generate_messages_check_deps_DockingInteractorActionFeedback"
 	@echo "... _yocs_msgs_generate_messages_check_deps_MagicButton"
 	@echo "... _yocs_msgs_generate_messages_check_deps_DockingInteractorGoal"
+	@echo "... yocs_velocity_smoother_nodelet"
+	@echo "... yocs_velocity_smoother_gencfg"
+	@echo "... diagnostic_msgs_generate_messages_py"
+	@echo "... diagnostic_msgs_generate_messages_nodejs"
+	@echo "... diagnostic_msgs_generate_messages_lisp"
+	@echo "... diagnostic_msgs_generate_messages_eus"
+	@echo "... diagnostic_msgs_generate_messages_cpp"
+	@echo "... kobuki_ros"
+	@echo "... kobuki_nodelet"
 .PHONY : help
 
 
