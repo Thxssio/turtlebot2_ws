@@ -39,14 +39,14 @@ sudo apt install ros-noetic-move-base-msgs
 ```
 
 ```
-mkdir ~/catkin_ws/src -p
-cd ~/catkin_ws/src
-git clone https://github.com/hanruihua/Turtlebot_on_noetic.git
-cd Turtlebot_on_noetic
+mkdir ~/turtlebot2_ws/src -p
+cd ~/turtlebot2_ws/src
+git clone https://github.com/thxssio/turtlebot2_ws.git
+cd turtlebot2_ws
 sh turtlebot_noetic.sh
 cd ~/catkin_ws
 catkin_make
-source devel/setup.zsh
+source devel/setup.bash
 ```
 
 ## Test
