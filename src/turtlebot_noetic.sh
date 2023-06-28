@@ -12,7 +12,7 @@ git clone --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
 # yocs_controllers
 git clone https://github.com/yujinrobot/yujin_ocs.git
 git clone https://github.com/yujinrobot/yocs_msgs.git
-mv yujin_ocs/yocs_cmd_vel_mux yujin_ocs/yocs_controllers .
+mv yujin_ocs/yocs_cmd_vel_mux yujin_ocs/yocs_controllers yujin_ocs/yocs_velocity_smoother .
 rm -rf yujin_ocs/
 
 # viz
