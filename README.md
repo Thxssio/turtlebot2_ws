@@ -89,3 +89,17 @@ roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/tmp/my_map.yaml
 ```
 roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
 ```
+
+## RtabMap
+
+```
+roslaunch turtlebot_gazebo turtlebot_world.launch 
+```
+```
+roslaunch rtabmap_demos demo_turtlebot_mapping.launch simulation:=true
+```
+
+```
+roslaunch rtabmap_demos demo_turtlebot_rviz.launch 
+```
+
