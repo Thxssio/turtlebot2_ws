@@ -38,6 +38,8 @@ sudo apt install ros-noetic-base-local-planner
 sudo apt install ros-noetic-move-base-msgs
 ```
 
+ ⚠️ Warning: use ```sh turtlebot_noetic.sh```
+
 ```
 mkdir ~/turtlebot2_ws/src -p
 cd ~/turtlebot2_ws/src
